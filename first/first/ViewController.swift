@@ -39,6 +39,8 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
         
         sortNames.sort()
         
+        print("hello world")
+        
     }
     
         
@@ -92,5 +94,6 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
         cell.textLabel?.text = objectArray[indexPath.section].sectionObjects[indexPath.row]
         return cell
        }
+    
 }
 
